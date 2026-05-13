@@ -1,0 +1,9 @@
+# Traffic Light System Configuration
+# -----------------------------------
+# Key            Value (seconds)
+GREEN_MIN        8
+YELLOW           3
+ALL_RED          1
+PED_CROSS        10
+EMERG_DUR        12
+MAX_WAIT         30

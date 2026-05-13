@@ -1,0 +1,724 @@
+
+=== session start  ts=1778520573 ===
+[17:29:34][CTRL] Controller started — beginning traffic cycle
+[17:29:34][CTRL] Phase → N-S GREEN
+[17:29:34][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[17:29:34][LGTN] [LIGHT-NORTH] process started
+[17:29:34][LGTN] [LIGHT-NORTH] state → GREEN
+[17:29:34][LGTS] [LIGHT-SOUTH] process started
+[17:29:34][LGTS] [LIGHT-SOUTH] state → GREEN
+[17:29:34][LGTE] [LIGHT-EAST] process started
+[17:29:34][LGTE] [LIGHT-EAST] state → RED
+[17:29:34][LGTW] [LIGHT-WEST] process started
+[17:29:34][LGTW] [LIGHT-WEST] state → RED
+[17:29:34][SAFE] Safety monitor started
+[17:29:34][VDET] [VDET] vehicle detector started
+[17:29:44][CTRL] Phase → N-S YELLOW
+[17:29:44][LGTN] [LIGHT-NORTH] state → YELLOW
+[17:29:44][LGTS] [LIGHT-SOUTH] state → YELLOW
+[17:29:47][CTRL] Phase → ALL-RED (1)
+[17:29:47][LGTN] [LIGHT-NORTH] state → RED
+[17:29:47][LGTS] [LIGHT-SOUTH] state → RED
+[17:29:49][CTRL] Phase → E-W GREEN
+[17:29:49][CTRL] E-W GREEN  dur=10s  (E:0 W:0 vehicles)
+[17:29:49][LGTE] [LIGHT-EAST] state → GREEN
+[17:29:49][LGTW] [LIGHT-WEST] state → GREEN
+=== session end    ts=1778520591 ===
+
+=== session start  ts=1778544812 ===
+[03:13:32][CTRL] Controller started — beginning traffic cycle
+[03:13:32][CTRL] Phase → N-S GREEN
+[03:13:32][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[03:13:32][LGTN] [LIGHT-NORTH] process started
+[03:13:32][LGTE] [LIGHT-EAST] process started
+[03:13:32][LGTS] [LIGHT-SOUTH] process started
+[03:13:32][LGTW] [LIGHT-WEST] process started
+[03:13:32][LGTE] [LIGHT-EAST] state → RED
+[03:13:32][LGTN] [LIGHT-NORTH] state → GREEN
+[03:13:32][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:13:32][LGTW] [LIGHT-WEST] state → RED
+[03:13:32][VDET] [VDET] vehicle detector started
+[03:13:32][SAFE] Safety monitor started
+[03:13:42][CTRL] Phase → N-S YELLOW
+[03:13:42][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:13:42][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:13:45][CTRL] Phase → ALL-RED (1)
+[03:13:45][LGTS] [LIGHT-SOUTH] state → RED
+[03:13:45][LGTN] [LIGHT-NORTH] state → RED
+[03:13:47][CTRL] Phase → E-W GREEN
+[03:13:47][CTRL] E-W GREEN  dur=10s  (E:0 W:0 vehicles)
+[03:13:47][LGTW] [LIGHT-WEST] state → GREEN
+[03:13:47][LGTE] [LIGHT-EAST] state → GREEN
+[03:13:55][CTRL] Phase → E-W YELLOW
+[03:13:55][LGTE] [LIGHT-EAST] SHM update → YELLOW (no cmd)
+[03:13:55][LGTW] [LIGHT-WEST] state → YELLOW
+[03:13:58][CTRL] Phase → ALL-RED (2)
+[03:13:58][LGTE] [LIGHT-EAST] state → RED
+[03:13:58][LGTW] [LIGHT-WEST] state → RED
+[03:14:00][SAFE] Safety OK — phase=ALL-RED (2)  N=RED S=RED E=RED W=RED
+[03:14:00][CTRL] Phase → N-S GREEN
+[03:14:00][CTRL] N-S GREEN  dur=13s  (N:2 S:1 vehicles)
+[03:14:00][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:14:00][LGTN] [LIGHT-NORTH] state → GREEN
+[03:14:13][CTRL] Phase → N-S YELLOW
+[03:14:13][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:14:14][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:14:16][CTRL] Phase → ALL-RED (1)
+[03:14:16][LGTS] [LIGHT-SOUTH] state → RED
+[03:14:17][LGTN] [LIGHT-NORTH] state → RED
+[03:14:18][CTRL] Phase → E-W GREEN
+[03:14:18][CTRL] E-W GREEN  dur=11s  (E:0 W:1 vehicles)
+[03:14:19][LGTW] [LIGHT-WEST] state → GREEN
+[03:14:19][LGTE] [LIGHT-EAST] state → GREEN
+[03:14:19][CTRL] Pedestrian request received — will serve at next opportunity
+[03:14:19][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:14:19][CTRL] Phase → E-W YELLOW
+[03:14:20][LGTE] [LIGHT-EAST] state → YELLOW
+[03:14:20][LGTW] [LIGHT-WEST] state → YELLOW
+[03:14:22][CTRL] Phase → ALL-RED (2)
+[03:14:22][LGTE] [LIGHT-EAST] state → RED
+[03:14:23][LGTW] [LIGHT-WEST] state → RED
+[03:14:22][CTRL] Phase → PEDESTRIAN
+[03:14:28][SAFE] Safety OK — phase=PEDESTRIAN  N=RED S=RED E=RED W=RED
+[03:14:37][CTRL] Phase → ALL-RED (1)
+[03:14:39][CTRL] Phase → N-S GREEN
+[03:14:39][CTRL] Pedestrian crossing complete — resuming normal cycle
+[03:14:39][CTRL] N-S GREEN  dur=14s  (N:3 S:1 vehicles)
+[03:14:39][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:14:39][LGTN] [LIGHT-NORTH] state → GREEN
+[03:14:43][EMRG] Emergency vehicle from EAST — preempting traffic
+[03:14:43][CTRL] EMERGENCY vehicle from EAST — preempting cycle!
+[03:14:43][CTRL] Handling EMERGENCY [EAST] — clearing intersection
+[03:14:43][CTRL] Phase → N-S YELLOW
+[03:14:44][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:14:44][LGTN] [LIGHT-NORTH] state → YELLOW
+=== session end    ts=1778544885 ===
+
+
+=== session start  ts=1778545366 ===
+[03:22:46][CTRL] Controller started — beginning traffic cycle
+[03:22:46][CTRL] Phase → N-S GREEN
+[03:22:46][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[03:22:46][LGTW] [LIGHT-WEST] process started
+[03:22:46][LGTS] [LIGHT-SOUTH] process started
+[03:22:46][LGTE] [LIGHT-EAST] process started
+[03:22:46][LGTN] [LIGHT-NORTH] process started
+[03:22:46][LGTW] [LIGHT-WEST] state → RED
+[03:22:46][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:22:46][LGTE] [LIGHT-EAST] state → RED
+[03:22:46][LGTN] [LIGHT-NORTH] state → GREEN
+[03:22:46][VDET] [VDET] vehicle detector started
+[03:22:46][SAFE] Safety monitor started
+[03:22:56][CTRL] Phase → N-S YELLOW
+[03:22:56][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:22:56][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:22:59][CTRL] Phase → ALL-RED (1)
+[03:22:59][LGTS] [LIGHT-SOUTH] state → RED
+[03:22:59][LGTN] [LIGHT-NORTH] state → RED
+[03:23:01][CTRL] Phase → E-W GREEN
+[03:23:01][CTRL] E-W GREEN  dur=12s  (E:2 W:0 vehicles)
+[03:23:01][LGTE] [LIGHT-EAST] state → GREEN
+[03:23:01][LGTW] [LIGHT-WEST] state → GREEN
+[03:23:11][CTRL] Phase → E-W YELLOW
+[03:23:11][LGTE] [LIGHT-EAST] state → YELLOW
+[03:23:11][LGTW] [LIGHT-WEST] state → YELLOW
+[03:23:14][SAFE] Safety OK — phase=E-W YELLOW  N=RED S=RED E=YELLOW W=YELLOW
+[03:23:14][CTRL] Phase → ALL-RED (2)
+[03:23:14][LGTE] [LIGHT-EAST] state → RED
+[03:23:14][LGTW] [LIGHT-WEST] state → RED
+[03:23:16][CTRL] Phase → N-S GREEN
+[03:23:16][CTRL] N-S GREEN  dur=12s  (N:1 S:1 vehicles)
+[03:23:16][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:23:16][LGTN] [LIGHT-NORTH] state → GREEN
+[03:23:18][CTRL] Pedestrian request received — will serve at next opportunity
+[03:23:18][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:23:18][CTRL] Phase → N-S YELLOW
+[03:23:18][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:23:18][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:23:21][CTRL] Phase → ALL-RED (1)
+[03:23:21][LGTS] [LIGHT-SOUTH] state → RED
+[03:23:21][LGTN] [LIGHT-NORTH] state → RED
+[03:23:23][CTRL] Phase → PEDESTRIAN
+[03:23:37][CTRL] Phase → ALL-RED (1)
+[03:23:39][CTRL] Phase → N-S GREEN
+[03:23:39][CTRL] Pedestrian crossing complete — resuming normal cycle
+[03:23:39][CTRL] N-S GREEN  dur=15s  (N:2 S:3 vehicles)
+[03:23:39][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:23:39][LGTN] [LIGHT-NORTH] state → GREEN
+[03:23:43][SAFE] Safety OK — phase=N-S GREEN  N=GREEN S=GREEN E=RED W=RED
+[03:23:54][CTRL] Phase → N-S YELLOW
+[03:23:54][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:23:54][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:23:57][CTRL] Phase → ALL-RED (1)
+[03:23:57][LGTS] [LIGHT-SOUTH] state → RED
+[03:23:57][LGTN] [LIGHT-NORTH] state → RED
+[03:23:59][CTRL] Phase → E-W GREEN
+[03:23:59][CTRL] E-W GREEN  dur=15s  (E:3 W:2 vehicles)
+[03:23:59][LGTW] [LIGHT-WEST] state → GREEN
+[03:23:59][LGTE] [LIGHT-EAST] state → GREEN
+[03:24:04][EMRG] Emergency vehicle from SOUTH — preempting traffic
+[03:24:05][CTRL] EMERGENCY vehicle from SOUTH — preempting cycle!
+[03:24:05][CTRL] Handling EMERGENCY [SOUTH] — clearing intersection
+[03:24:05][CTRL] Phase → E-W YELLOW
+[03:24:05][LGTW] [LIGHT-WEST] state → YELLOW
+[03:24:05][LGTE] [LIGHT-EAST] state → YELLOW
+[03:24:08][CTRL] Phase → ALL-RED (2)
+[03:24:08][LGTW] [LIGHT-WEST] state → RED
+[03:24:08][LGTE] [LIGHT-EAST] state → RED
+[03:24:08][CTRL] Phase → EMERGENCY
+[03:24:08][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:24:11][SAFE] Safety OK — phase=EMERGENCY  N=RED S=GREEN E=RED W=RED
+[03:24:12][CTRL] Pedestrian request received — will serve at next opportunity
+[03:24:28][CTRL] Phase → ALL-RED (1)
+[03:24:28][LGTS] [LIGHT-SOUTH] state → RED
+[03:24:28][SAFE] *** SAFETY VIOLATION: SOUTH went GREEN→RED without YELLOW! ***
+[03:24:30][CTRL] Phase → N-S GREEN
+[03:24:30][CTRL] Emergency cleared — resuming normal cycle
+[03:24:30][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:24:30][CTRL] Phase → N-S YELLOW
+[03:24:30][LGTN] [LIGHT-NORTH] CMD/SHM mismatch: cmd=GREEN shm=YELLOW — using SHM
+[03:24:30][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:24:30][LGTS] [LIGHT-SOUTH] CMD/SHM mismatch: cmd=GREEN shm=YELLOW — using SHM
+[03:24:30][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:24:33][CTRL] Phase → ALL-RED (1)
+[03:24:33][LGTN] [LIGHT-NORTH] state → RED
+[03:24:33][LGTS] [LIGHT-SOUTH] state → RED
+[03:24:35][CTRL] Phase → PEDESTRIAN
+[03:24:40][SAFE] Safety OK — phase=PEDESTRIAN  N=RED S=RED E=RED W=RED
+=== session end    ts=1778545484 ===
+
+
+=== session start  ts=1778545661 ===
+[03:27:41][CTRL] Controller started — beginning traffic cycle
+[03:27:41][CTRL] Phase → N-S GREEN
+[03:27:41][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[03:27:41][LGTN] [LIGHT-NORTH] process started
+[03:27:41][LGTS] [LIGHT-SOUTH] process started
+[03:27:41][LGTN] [LIGHT-NORTH] state → GREEN
+[03:27:41][LGTW] [LIGHT-WEST] process started
+[03:27:41][LGTW] [LIGHT-WEST] state → RED
+[03:27:41][LGTE] [LIGHT-EAST] process started
+[03:27:41][LGTE] [LIGHT-EAST] state → RED
+[03:27:41][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:27:41][VDET] [VDET] vehicle detector started
+[03:27:41][SAFE] Safety monitor started
+[03:27:49][CTRL] Phase → N-S YELLOW
+[03:27:49][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:27:49][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:27:53][CTRL] Phase → ALL-RED (1)
+[03:27:53][LGTS] [LIGHT-SOUTH] state → RED
+[03:27:53][LGTN] [LIGHT-NORTH] state → RED
+[03:27:55][CTRL] Phase → E-W GREEN
+[03:27:55][CTRL] E-W GREEN  dur=11s  (E:1 W:0 vehicles)
+[03:27:55][LGTE] [LIGHT-EAST] state → GREEN
+[03:27:55][LGTW] [LIGHT-WEST] state → GREEN
+[03:28:06][CTRL] Phase → E-W YELLOW
+[03:28:06][LGTW] [LIGHT-WEST] state → YELLOW
+[03:28:06][LGTE] [LIGHT-EAST] state → YELLOW
+[03:28:09][CTRL] Phase → ALL-RED (2)
+[03:28:09][LGTW] [LIGHT-WEST] state → RED
+[03:28:09][LGTE] [LIGHT-EAST] state → RED
+[03:28:09][SAFE] Safety OK — phase=ALL-RED (2)  N=RED S=RED E=RED W=RED
+[03:28:11][CTRL] Phase → N-S GREEN
+[03:28:11][CTRL] N-S GREEN  dur=12s  (N:1 S:1 vehicles)
+[03:28:11][LGTN] [LIGHT-NORTH] state → GREEN
+[03:28:11][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:28:12][CTRL] Pedestrian request received — will serve at next opportunity
+[03:28:12][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:28:12][CTRL] Phase → N-S YELLOW
+[03:28:12][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:28:12][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:28:13][CTRL] Phase → ALL-RED (1)
+[03:28:13][LGTS] [LIGHT-SOUTH] state → RED
+[03:28:13][LGTN] [LIGHT-NORTH] state → RED
+[03:28:15][CTRL] Phase → PEDESTRIAN
+[03:28:30][CTRL] Phase → ALL-RED (1)
+[03:28:32][CTRL] Phase → N-S GREEN
+[03:28:32][CTRL] Pedestrian crossing complete — resuming normal cycle
+[03:28:32][CTRL] N-S GREEN  dur=14s  (N:2 S:2 vehicles)
+[03:28:32][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:28:32][LGTN] [LIGHT-NORTH] state → GREEN
+[03:28:38][SAFE] Safety OK — phase=N-S GREEN  N=GREEN S=GREEN E=RED W=RED
+[03:28:44][CTRL] Phase → N-S YELLOW
+[03:28:44][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:28:44][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:28:47][CTRL] Phase → ALL-RED (1)
+[03:28:47][LGTN] [LIGHT-NORTH] state → RED
+[03:28:47][LGTS] [LIGHT-SOUTH] state → RED
+[03:28:49][CTRL] Phase → E-W GREEN
+[03:28:49][CTRL] E-W GREEN  dur=14s  (E:3 W:1 vehicles)
+[03:28:49][LGTW] [LIGHT-WEST] state → GREEN
+[03:28:49][LGTE] [LIGHT-EAST] state → GREEN
+[03:29:03][CTRL] Phase → E-W YELLOW
+[03:29:03][LGTW] [LIGHT-WEST] state → YELLOW
+[03:29:03][LGTE] [LIGHT-EAST] state → YELLOW
+[03:29:06][SAFE] Safety OK — phase=E-W YELLOW  N=RED S=RED E=YELLOW W=YELLOW
+[03:29:06][CTRL] Phase → ALL-RED (2)
+[03:29:06][LGTW] [LIGHT-WEST] state → RED
+[03:29:06][LGTE] [LIGHT-EAST] state → RED
+[03:29:08][CTRL] Phase → N-S GREEN
+[03:29:08][CTRL] N-S GREEN  dur=14s  (N:3 S:1 vehicles)
+[03:29:08][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:29:08][LGTN] [LIGHT-NORTH] state → GREEN
+=== session end    ts=1778545753 ===
+
+
+=== session start  ts=1778627847 ===
+[02:17:27][CTRL] Controller started — beginning traffic cycle
+[02:17:27][CTRL] Phase → N-S GREEN
+[02:17:27][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[02:17:27][LGTE] [LIGHT-EAST] process started
+[02:17:27][LGTS] [LIGHT-SOUTH] process started
+[02:17:27][LGTW] [LIGHT-WEST] process started
+[02:17:27][LGTN] [LIGHT-NORTH] process started
+[02:17:27][LGTE] [LIGHT-EAST] state → RED
+[02:17:27][LGTS] [LIGHT-SOUTH] state → GREEN
+[02:17:27][LGTW] [LIGHT-WEST] state → RED
+[02:17:27][LGTN] [LIGHT-NORTH] state → GREEN
+[02:17:27][VDET] [VDET] vehicle detector started
+[02:17:27][SAFE] Safety monitor started
+=== session end    ts=1778627850 ===
+
+
+=== session start  ts=1778629774 ===
+[02:49:34][CTRL] Controller started — beginning traffic cycle
+[02:49:34][CTRL] Phase → N-S GREEN
+[02:49:34][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[02:49:34][LGTS] [LIGHT-SOUTH] process started
+[02:49:34][LGTN] [LIGHT-NORTH] process started
+[02:49:34][LGTE] [LIGHT-EAST] process started
+[02:49:34][LGTW] [LIGHT-WEST] process started
+[02:49:34][LGTS] [LIGHT-SOUTH] state → GREEN
+[02:49:34][LGTN] [LIGHT-NORTH] state → GREEN
+[02:49:34][LGTW] [LIGHT-WEST] state → RED
+[02:49:34][LGTE] [LIGHT-EAST] state → RED
+[02:49:34][SAFE] Safety monitor started
+[02:49:34][VDET] [VDET] vehicle detector started
+=== session end    ts=1778629781 ===
+
+
+=== session start  ts=1778631599 ===
+[03:20:00][CTRL] Controller test message
+[03:20:00][EMRG] Emergency test message
+[03:20:00][SAFE] *** SAFETY VIOLATION: test ***
+[03:20:00][LGTN] [LIGHT-NORTH] state → GREEN
+=== session end    ts=1778631601 ===
+
+
+=== session start  ts=1778631778 ===
+[03:22:58][CTRL] Controller started — beginning traffic cycle
+[03:22:58][CTRL] Phase → N-S GREEN
+[03:22:58][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[03:22:58][LGTS] [LIGHT-SOUTH] process started
+[03:22:58][LGTW] [LIGHT-WEST] process started
+[03:22:58][LGTE] [LIGHT-EAST] process started
+[03:22:58][LGTN] [LIGHT-NORTH] process started
+[03:22:58][VDET] [VDET] vehicle detector started
+[03:22:58][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:22:58][LGTW] [LIGHT-WEST] state → RED
+[03:22:58][LGTE] [LIGHT-EAST] state → RED
+[03:22:58][LGTN] [LIGHT-NORTH] state → GREEN
+[03:22:58][SAFE] Safety monitor started
+[03:23:05][CTRL] Phase → N-S YELLOW
+[03:23:05][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:23:05][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:23:08][CTRL] Phase → ALL-RED (1)
+[03:23:08][LGTS] [LIGHT-SOUTH] state → RED
+[03:23:08][LGTN] [LIGHT-NORTH] state → RED
+=== session end    ts=1778631790 ===
+
+
+=== session start  ts=1778631898 ===
+[03:24:58][CTRL] Controller started — beginning traffic cycle
+[03:24:58][CTRL] Phase → N-S GREEN
+[03:24:58][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[03:24:58][LGTW] [LIGHT-WEST] process started
+[03:24:58][LGTE] [LIGHT-EAST] process started
+[03:24:58][LGTW] [LIGHT-WEST] state → RED
+[03:24:58][LGTN] [LIGHT-NORTH] process started
+[03:24:58][LGTE] [LIGHT-EAST] state → RED
+[03:24:58][LGTS] [LIGHT-SOUTH] process started
+[03:24:58][LGTN] [LIGHT-NORTH] state → GREEN
+[03:24:58][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:24:58][VDET] [VDET] vehicle detector started
+[03:24:58][SAFE] Safety monitor started
+[03:25:06][CTRL] Phase → N-S YELLOW
+[03:25:06][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:25:06][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:25:09][CTRL] Phase → ALL-RED (1)
+[03:25:09][LGTS] [LIGHT-SOUTH] state → RED
+[03:25:09][LGTN] [LIGHT-NORTH] state → RED
+[03:25:11][CTRL] Phase → E-W GREEN
+[03:25:11][CTRL] E-W GREEN  dur=12s  (E:1 W:1 vehicles)
+[03:25:11][LGTE] [LIGHT-EAST] state → GREEN
+[03:25:11][LGTW] [LIGHT-WEST] state → GREEN
+[03:25:23][CTRL] Phase → E-W YELLOW
+[03:25:23][LGTW] [LIGHT-WEST] state → YELLOW
+[03:25:23][LGTE] [LIGHT-EAST] state → YELLOW
+[03:25:26][SAFE] Safety OK — phase=E-W YELLOW  N=RED S=RED E=YELLOW W=YELLOW
+[03:25:26][CTRL] Phase → ALL-RED (2)
+[03:25:26][LGTE] [LIGHT-EAST] state → RED
+[03:25:26][LGTW] [LIGHT-WEST] state → RED
+[03:25:28][CTRL] Phase → N-S GREEN
+[03:25:28][CTRL] N-S GREEN  dur=11s  (N:1 S:0 vehicles)
+[03:25:28][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:25:28][LGTN] [LIGHT-NORTH] state → GREEN
+[03:25:34][CTRL] Pedestrian request received — will serve at next opportunity
+[03:25:34][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:25:34][CTRL] Phase → N-S YELLOW
+[03:25:34][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:25:34][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:25:35][CTRL] Phase → ALL-RED (1)
+[03:25:35][LGTS] [LIGHT-SOUTH] state → RED
+[03:25:35][LGTN] [LIGHT-NORTH] state → RED
+[03:25:37][CTRL] Phase → PEDESTRIAN
+[03:25:52][CTRL] Phase → ALL-RED (1)
+[03:25:54][SAFE] Safety OK — phase=ALL-RED (1)  N=RED S=RED E=RED W=RED
+[03:25:54][CTRL] Phase → N-S GREEN
+[03:25:54][CTRL] Pedestrian crossing complete — resuming normal cycle
+[03:25:54][CTRL] N-S GREEN  dur=11s  (N:0 S:1 vehicles)
+[03:25:54][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:25:54][LGTN] [LIGHT-NORTH] state → GREEN
+[03:26:05][CTRL] Phase → N-S YELLOW
+[03:26:05][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:26:05][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:26:06][CTRL] Phase → ALL-RED (1)
+[03:26:06][LGTS] [LIGHT-SOUTH] state → RED
+[03:26:06][LGTN] [LIGHT-NORTH] state → RED
+[03:26:08][CTRL] Phase → E-W GREEN
+[03:26:08][CTRL] E-W GREEN  dur=15s  (E:2 W:3 vehicles)
+[03:26:08][LGTE] [LIGHT-EAST] state → GREEN
+[03:26:08][LGTW] [LIGHT-WEST] state → GREEN
+[03:26:22][SAFE] Safety OK — phase=E-W GREEN  N=RED S=RED E=GREEN W=GREEN
+[03:26:23][CTRL] Phase → E-W YELLOW
+[03:26:23][LGTE] [LIGHT-EAST] state → YELLOW
+[03:26:23][LGTW] [LIGHT-WEST] state → YELLOW
+[03:26:26][CTRL] Phase → ALL-RED (2)
+[03:26:26][LGTW] [LIGHT-WEST] state → RED
+[03:26:26][LGTE] [LIGHT-EAST] state → RED
+[03:26:28][CTRL] Phase → N-S GREEN
+[03:26:28][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[03:26:28][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:26:28][LGTN] [LIGHT-NORTH] state → GREEN
+[03:26:29][CTRL] Pedestrian request received — will serve at next opportunity
+[03:26:29][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:26:29][CTRL] Phase → N-S YELLOW
+[03:26:29][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:26:29][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:26:32][CTRL] Phase → ALL-RED (1)
+[03:26:32][LGTS] [LIGHT-SOUTH] state → RED
+[03:26:32][LGTN] [LIGHT-NORTH] state → RED
+[03:26:34][CTRL] Phase → PEDESTRIAN
+[03:26:47][CTRL] Phase → ALL-RED (1)
+[03:26:49][CTRL] Phase → N-S GREEN
+[03:26:49][CTRL] Pedestrian crossing complete — resuming normal cycle
+[03:26:49][CTRL] N-S GREEN  dur=11s  (N:1 S:0 vehicles)
+[03:26:49][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:26:49][LGTN] [LIGHT-NORTH] state → GREEN
+[03:26:49][EMRG] Emergency vehicle from WEST — preempting traffic
+[03:26:50][SAFE] Safety OK — phase=N-S GREEN  N=GREEN S=GREEN E=RED W=RED
+[03:26:50][CTRL] EMERGENCY vehicle from WEST — preempting cycle!
+[03:26:50][CTRL] Handling EMERGENCY [WEST] — clearing intersection
+[03:26:50][CTRL] Phase → N-S YELLOW
+[03:26:50][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:26:50][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:26:53][CTRL] Phase → ALL-RED (1)
+[03:26:53][LGTS] [LIGHT-SOUTH] state → RED
+[03:26:53][LGTN] [LIGHT-NORTH] state → RED
+[03:26:55][CTRL] Phase → EMERGENCY
+[03:26:55][LGTW] [LIGHT-WEST] state → GREEN
+[03:27:13][CTRL] Phase → EMERGENCY YELLOW [WEST]
+[03:27:14][LGTW] [LIGHT-WEST] state → YELLOW
+[03:27:16][CTRL] Phase → ALL-RED (1)
+[03:27:17][LGTW] [LIGHT-WEST] state → RED
+[03:27:18][CTRL] Phase → N-S GREEN
+[03:27:18][CTRL] Emergency cleared — resuming normal cycle
+[03:27:18][CTRL] N-S GREEN  dur=14s  (N:3 S:1 vehicles)
+[03:27:19][SAFE] Safety OK — phase=N-S GREEN  N=GREEN S=GREEN E=RED W=RED
+[03:27:19][LGTN] [LIGHT-NORTH] state → GREEN
+[03:27:19][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:27:19][CTRL] Pedestrian request received — will serve at next opportunity
+[03:27:19][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:27:19][CTRL] Phase → N-S YELLOW
+[03:27:20][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:27:20][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:27:23][CTRL] Phase → ALL-RED (1)
+[03:27:23][LGTN] [LIGHT-NORTH] state → RED
+[03:27:23][LGTS] [LIGHT-SOUTH] state → RED
+[03:27:25][CTRL] Phase → PEDESTRIAN
+[03:27:38][CTRL] Phase → ALL-RED (1)
+[03:27:40][CTRL] Phase → N-S GREEN
+[03:27:40][CTRL] Pedestrian crossing complete — resuming normal cycle
+[03:27:40][CTRL] N-S GREEN  dur=17s  (N:4 S:3 vehicles)
+[03:27:40][LGTN] [LIGHT-NORTH] state → GREEN
+[03:27:40][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:27:47][SAFE] Safety OK — phase=N-S GREEN  N=GREEN S=GREEN E=RED W=RED
+[03:27:57][CTRL] Phase → N-S YELLOW
+[03:27:57][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:27:57][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:28:00][CTRL] Phase → ALL-RED (1)
+[03:28:00][LGTN] [LIGHT-NORTH] state → RED
+[03:28:00][LGTS] [LIGHT-SOUTH] state → RED
+[03:28:02][CTRL] Phase → E-W GREEN
+[03:28:02][CTRL] E-W GREEN  dur=20s  (E:8 W:3 vehicles)
+[03:28:02][LGTE] [LIGHT-EAST] state → GREEN
+[03:28:02][LGTW] [LIGHT-WEST] state → GREEN
+[03:28:03][CTRL] Pedestrian request received — will serve at next opportunity
+[03:28:03][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:28:03][CTRL] Phase → E-W YELLOW
+[03:28:03][LGTE] [LIGHT-EAST] state → YELLOW
+[03:28:03][LGTW] [LIGHT-WEST] state → YELLOW
+[03:28:06][LGTE] [LIGHT-EAST] state → RED
+[03:28:06][LGTW] [LIGHT-WEST] state → RED
+=== session end    ts=1778632135 ===
+
+
+=== session start  ts=1778632560 ===
+[03:36:00][CTRL] Controller started — beginning traffic cycle
+[03:36:00][CTRL] Phase → N-S GREEN
+[03:36:00][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[03:36:00][LGTN] [LIGHT-NORTH] process started
+[03:36:00][LGTW] [LIGHT-WEST] process started
+[03:36:00][LGTE] [LIGHT-EAST] process started
+[03:36:00][LGTN] [LIGHT-NORTH] state → GREEN
+[03:36:00][LGTW] [LIGHT-WEST] state → RED
+[03:36:00][LGTE] [LIGHT-EAST] state → RED
+[03:36:00][LGTS] [LIGHT-SOUTH] process started
+[03:36:00][VDET] [VDET] vehicle detector started
+[03:36:00][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:36:00][SAFE] Safety monitor started
+[03:36:10][CTRL] Phase → N-S YELLOW
+[03:36:10][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:36:10][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:36:10][CTRL] Phase → ALL-RED (1)
+[03:36:10][LGTN] [LIGHT-NORTH] state → RED
+[03:36:10][LGTS] [LIGHT-SOUTH] state → RED
+[03:36:12][CTRL] Phase → E-W GREEN
+[03:36:12][CTRL] E-W GREEN  dur=11s  (E:0 W:1 vehicles)
+[03:36:12][LGTE] [LIGHT-EAST] state → GREEN
+[03:36:12][LGTW] [LIGHT-WEST] state → GREEN
+=== session end    ts=1778632575 ===
+
+
+=== session start  ts=1778632640 ===
+[03:37:20][CTRL] Controller started — beginning traffic cycle
+[03:37:20][CTRL] Phase → N-S GREEN
+[03:37:20][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[03:37:20][LGTS] [LIGHT-SOUTH] process started
+[03:37:20][LGTE] [LIGHT-EAST] process started
+[03:37:20][LGTN] [LIGHT-NORTH] process started
+[03:37:20][LGTW] [LIGHT-WEST] process started
+[03:37:20][LGTE] [LIGHT-EAST] state → RED
+[03:37:20][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:37:20][LGTN] [LIGHT-NORTH] state → GREEN
+[03:37:20][LGTW] [LIGHT-WEST] state → RED
+[03:37:20][VDET] [VDET] vehicle detector started
+[03:37:20][SAFE] Safety monitor started
+[03:37:30][CTRL] Phase → N-S YELLOW
+[03:37:30][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:37:30][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:37:33][CTRL] Phase → ALL-RED (1)
+[03:37:33][LGTS] [LIGHT-SOUTH] state → RED
+[03:37:33][LGTN] [LIGHT-NORTH] state → RED
+[03:37:35][CTRL] Phase → E-W GREEN
+[03:37:35][CTRL] E-W GREEN  dur=13s  (E:0 W:3 vehicles)
+[03:37:35][LGTE] [LIGHT-EAST] state → GREEN
+[03:37:35][LGTW] [LIGHT-WEST] state → GREEN
+[03:37:46][CTRL] Phase → E-W YELLOW
+[03:37:46][LGTE] [LIGHT-EAST] state → YELLOW
+[03:37:46][LGTW] [LIGHT-WEST] state → YELLOW
+[03:37:48][SAFE] Safety OK — phase=E-W YELLOW  N=RED S=RED E=YELLOW W=YELLOW
+[03:37:49][CTRL] Phase → ALL-RED (2)
+[03:37:49][LGTW] [LIGHT-WEST] state → RED
+[03:37:49][LGTE] [LIGHT-EAST] state → RED
+[03:37:51][CTRL] Phase → N-S GREEN
+[03:37:51][CTRL] N-S GREEN  dur=11s  (N:0 S:1 vehicles)
+[03:37:51][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:37:51][LGTN] [LIGHT-NORTH] state → GREEN
+[03:38:02][CTRL] Phase → N-S YELLOW
+[03:38:02][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:38:02][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:38:05][CTRL] Phase → ALL-RED (1)
+[03:38:05][LGTS] [LIGHT-SOUTH] state → RED
+[03:38:05][LGTN] [LIGHT-NORTH] state → RED
+[03:38:07][CTRL] Phase → E-W GREEN
+[03:38:07][CTRL] E-W GREEN  dur=14s  (E:1 W:3 vehicles)
+[03:38:07][LGTW] [LIGHT-WEST] state → GREEN
+[03:38:07][LGTE] [LIGHT-EAST] state → GREEN
+[03:38:08][CTRL] Pedestrian request received — will serve at next opportunity
+[03:38:08][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:38:08][CTRL] Phase → E-W YELLOW
+[03:38:08][LGTE] [LIGHT-EAST] state → YELLOW
+[03:38:08][LGTW] [LIGHT-WEST] state → YELLOW
+[03:38:11][CTRL] Phase → ALL-RED (2)
+[03:38:11][LGTW] [LIGHT-WEST] state → RED
+[03:38:11][LGTE] [LIGHT-EAST] state → RED
+[03:38:11][CTRL] Phase → PEDESTRIAN
+[03:38:16][SAFE] Safety OK — phase=PEDESTRIAN  N=RED S=RED E=RED W=RED
+[03:38:26][CTRL] Phase → ALL-RED (1)
+[03:38:28][CTRL] Phase → N-S GREEN
+[03:38:28][CTRL] Pedestrian crossing complete — resuming normal cycle
+[03:38:28][CTRL] N-S GREEN  dur=15s  (N:4 S:1 vehicles)
+[03:38:28][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:38:28][LGTN] [LIGHT-NORTH] state → GREEN
+[03:38:41][CTRL] Phase → N-S YELLOW
+[03:38:42][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:38:42][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:38:44][SAFE] Safety OK — phase=N-S YELLOW  N=YELLOW S=YELLOW E=RED W=RED
+[03:38:45][CTRL] Phase → ALL-RED (1)
+[03:38:45][LGTS] [LIGHT-SOUTH] state → RED
+[03:38:45][LGTN] [LIGHT-NORTH] state → RED
+[03:38:47][CTRL] Phase → E-W GREEN
+[03:38:47][CTRL] E-W GREEN  dur=18s  (E:5 W:3 vehicles)
+[03:38:47][LGTW] [LIGHT-WEST] state → GREEN
+[03:38:47][LGTE] [LIGHT-EAST] state → GREEN
+[03:38:49][EMRG] Emergency vehicle from NORTH — preempting traffic
+[03:38:50][CTRL] EMERGENCY vehicle from NORTH — preempting cycle!
+[03:38:50][CTRL] Handling EMERGENCY [NORTH] — clearing intersection
+[03:38:50][CTRL] Phase → E-W YELLOW
+[03:38:50][LGTW] [LIGHT-WEST] state → YELLOW
+[03:38:50][LGTE] [LIGHT-EAST] state → YELLOW
+[03:38:53][CTRL] Phase → ALL-RED (2)
+[03:38:53][LGTE] [LIGHT-EAST] state → RED
+[03:38:53][LGTW] [LIGHT-WEST] state → RED
+[03:38:55][CTRL] Phase → EMERGENCY
+[03:38:55][LGTN] [LIGHT-NORTH] state → GREEN
+[03:39:13][CTRL] Pedestrian request received — will serve at next opportunity
+[03:39:13][SAFE] Safety OK — phase=EMERGENCY  N=GREEN S=RED E=RED W=RED
+[03:39:13][CTRL] Phase → EMERGENCY YELLOW [NORTH]
+[03:39:13][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:39:16][CTRL] Phase → ALL-RED (1)
+[03:39:16][LGTN] [LIGHT-NORTH] state → RED
+[03:39:18][CTRL] Phase → N-S GREEN
+[03:39:18][CTRL] Emergency cleared — resuming normal cycle
+[03:39:18][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:39:18][CTRL] Phase → N-S YELLOW
+[03:39:18][LGTS] [LIGHT-SOUTH] CMD/SHM mismatch: cmd=GREEN shm=YELLOW — using SHM
+[03:39:18][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:39:18][LGTN] [LIGHT-NORTH] CMD/SHM mismatch: cmd=GREEN shm=YELLOW — using SHM
+[03:39:18][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:39:21][CTRL] Phase → ALL-RED (1)
+[03:39:21][LGTS] [LIGHT-SOUTH] state → RED
+[03:39:21][LGTN] [LIGHT-NORTH] state → RED
+[03:39:23][CTRL] Phase → PEDESTRIAN
+[03:39:38][CTRL] Phase → ALL-RED (1)
+[03:39:40][CTRL] Phase → N-S GREEN
+[03:39:40][CTRL] Pedestrian crossing complete — resuming normal cycle
+[03:39:40][CTRL] N-S GREEN  dur=18s  (N:5 S:3 vehicles)
+[03:39:40][LGTN] [LIGHT-NORTH] state → GREEN
+[03:39:40][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:39:43][SAFE] Safety OK — phase=N-S GREEN  N=GREEN S=GREEN E=RED W=RED
+[03:39:56][CTRL] Phase → N-S YELLOW
+[03:39:56][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:39:56][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:39:59][CTRL] Phase → ALL-RED (1)
+[03:39:59][LGTS] [LIGHT-SOUTH] state → RED
+[03:39:59][LGTN] [LIGHT-NORTH] state → RED
+[03:40:00][EMRG] Emergency vehicle from WEST — preempting traffic
+[03:40:01][CTRL] Phase → E-W GREEN
+[03:40:01][CTRL] E-W GREEN  dur=20s  (E:7 W:8 vehicles)
+[03:40:01][LGTE] [LIGHT-EAST] state → GREEN
+[03:40:01][LGTW] [LIGHT-WEST] state → GREEN
+[03:40:02][CTRL] EMERGENCY vehicle from WEST — preempting cycle!
+[03:40:02][CTRL] Handling EMERGENCY [WEST] — clearing intersection
+[03:40:02][CTRL] Phase → E-W YELLOW
+[03:40:02][LGTE] [LIGHT-EAST] state → YELLOW
+[03:40:02][LGTW] [LIGHT-WEST] state → YELLOW
+[03:40:05][CTRL] Phase → ALL-RED (2)
+[03:40:05][LGTE] [LIGHT-EAST] state → RED
+[03:40:05][LGTW] [LIGHT-WEST] state → RED
+[03:40:07][CTRL] Phase → EMERGENCY
+[03:40:07][LGTW] [LIGHT-WEST] state → GREEN
+[03:40:11][SAFE] Safety OK — phase=EMERGENCY  N=RED S=RED E=RED W=GREEN
+=== session end    ts=1778632824 ===
+
+
+=== session start  ts=1778633101 ===
+[03:45:01][CTRL] Controller started — beginning traffic cycle
+[03:45:01][CTRL] Phase → N-S GREEN
+[03:45:01][CTRL] N-S GREEN  dur=10s  (N:0 S:0 vehicles)
+[03:45:01][LGTW] [LIGHT-WEST] process started
+[03:45:01][LGTE] [LIGHT-EAST] process started
+[03:45:01][LGTW] [LIGHT-WEST] state → RED
+[03:45:01][LGTE] [LIGHT-EAST] state → RED
+[03:45:01][LGTN] [LIGHT-NORTH] process started
+[03:45:01][LGTN] [LIGHT-NORTH] state → GREEN
+[03:45:01][LGTS] [LIGHT-SOUTH] process started
+[03:45:01][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:45:01][VDET] [VDET] vehicle detector started
+[03:45:01][SAFE] Safety monitor started
+[03:45:11][CTRL] Phase → N-S YELLOW
+[03:45:11][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:45:11][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:45:14][CTRL] Phase → ALL-RED (1)
+[03:45:14][LGTN] [LIGHT-NORTH] state → RED
+[03:45:14][LGTS] [LIGHT-SOUTH] state → RED
+[03:45:16][CTRL] Phase → E-W GREEN
+[03:45:16][CTRL] E-W GREEN  dur=11s  (E:0 W:1 vehicles)
+[03:45:16][LGTE] [LIGHT-EAST] state → GREEN
+[03:45:16][LGTW] [LIGHT-WEST] state → GREEN
+[03:45:27][CTRL] Phase → E-W YELLOW
+[03:45:27][LGTW] [LIGHT-WEST] state → YELLOW
+[03:45:27][LGTE] [LIGHT-EAST] state → YELLOW
+[03:45:30][CTRL] Phase → ALL-RED (2)
+[03:45:30][LGTE] [LIGHT-EAST] state → RED
+[03:45:30][LGTW] [LIGHT-WEST] state → RED
+[03:45:31][SAFE] Safety OK — phase=ALL-RED (2)  N=RED S=RED E=RED W=RED
+[03:45:32][CTRL] Phase → N-S GREEN
+[03:45:32][CTRL] N-S GREEN  dur=14s  (N:2 S:2 vehicles)
+[03:45:32][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:45:32][LGTN] [LIGHT-NORTH] state → GREEN
+[03:45:40][CTRL] Pedestrian request received — will serve at next opportunity
+[03:45:40][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:45:40][CTRL] Phase → N-S YELLOW
+[03:45:40][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:45:40][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:45:43][CTRL] Phase → ALL-RED (1)
+[03:45:43][LGTN] [LIGHT-NORTH] state → RED
+[03:45:43][LGTS] [LIGHT-SOUTH] state → RED
+[03:45:45][CTRL] Phase → PEDESTRIAN
+[03:45:58][SAFE] Safety OK — phase=PEDESTRIAN  N=RED S=RED E=RED W=RED
+[03:46:00][CTRL] Phase → ALL-RED (1)
+[03:46:00][CTRL] Phase → N-S GREEN
+[03:46:00][CTRL] Pedestrian crossing complete — resuming normal cycle
+[03:46:00][CTRL] N-S GREEN  dur=15s  (N:2 S:3 vehicles)
+[03:46:00][LGTN] [LIGHT-NORTH] state → GREEN
+[03:46:00][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:46:05][EMRG] Emergency vehicle from NORTH — preempting traffic
+[03:46:05][CTRL] EMERGENCY vehicle from NORTH — preempting cycle!
+[03:46:05][CTRL] Handling EMERGENCY [NORTH] — clearing intersection
+[03:46:05][CTRL] Phase → N-S YELLOW
+[03:46:05][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:46:05][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:46:08][CTRL] Phase → ALL-RED (1)
+[03:46:08][LGTS] [LIGHT-SOUTH] state → RED
+[03:46:08][LGTN] [LIGHT-NORTH] state → RED
+[03:46:10][CTRL] Phase → EMERGENCY
+[03:46:11][LGTN] [LIGHT-NORTH] state → GREEN
+[03:46:21][CTRL] Pedestrian request received — will serve at next opportunity
+[03:46:26][SAFE] Safety OK — phase=EMERGENCY  N=GREEN S=RED E=RED W=RED
+[03:46:30][CTRL] Phase → EMERGENCY YELLOW [NORTH]
+[03:46:31][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:46:31][CTRL] Phase → ALL-RED (1)
+[03:46:31][LGTN] [LIGHT-NORTH] state → RED
+[03:46:33][CTRL] Phase → N-S GREEN
+[03:46:33][CTRL] Emergency cleared — resuming normal cycle
+[03:46:33][CTRL] Handling PEDESTRIAN — clearing intersection
+[03:46:33][CTRL] Phase → N-S YELLOW
+[03:46:33][LGTN] [LIGHT-NORTH] CMD/SHM mismatch: cmd=GREEN shm=YELLOW — using SHM
+[03:46:33][LGTN] [LIGHT-NORTH] state → YELLOW
+[03:46:33][LGTS] [LIGHT-SOUTH] CMD/SHM mismatch: cmd=GREEN shm=YELLOW — using SHM
+[03:46:33][LGTS] [LIGHT-SOUTH] state → YELLOW
+[03:46:36][CTRL] Phase → ALL-RED (1)
+[03:46:36][LGTS] [LIGHT-SOUTH] state → RED
+[03:46:36][LGTN] [LIGHT-NORTH] state → RED
+[03:46:38][CTRL] Phase → PEDESTRIAN
+[03:46:53][CTRL] Phase → ALL-RED (1)
+[03:46:55][SAFE] Safety OK — phase=ALL-RED (1)  N=RED S=RED E=RED W=RED
+[03:46:55][CTRL] Phase → N-S GREEN
+[03:46:55][CTRL] Pedestrian crossing complete — resuming normal cycle
+[03:46:55][CTRL] N-S GREEN  dur=16s  (N:1 S:5 vehicles)
+[03:46:55][LGTS] [LIGHT-SOUTH] state → GREEN
+[03:46:55][LGTN] [LIGHT-NORTH] state → GREEN
+=== session end    ts=1778633216 ===
+
